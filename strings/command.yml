@@ -15,7 +15,7 @@ PING_COMMAND : ["mping"]
 START_COMMAND : ["mstart"]
 HELP_COMMAND : ["mhelp"]
 SETTINGS_COMMAND : ["msettings", "msetting"]
-RELOAD_COMMAND : ["admincache", "mreload"]
+RELOAD_COMMAND : ["admincache", "reload"]
 GSTATS_COMMAND : ["gstats"]
 STATS_COMMAND : ["mstats"]
 LANGUAGE_COMMAND : ["mlang", "mlanguage", "mlangs"]
@@ -50,7 +50,7 @@ SKIP_COMMAND : ["skip", "cskip"]
 SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
 LOOP_COMMAND : ["loop", "cloop"]
 SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
-RESTART_COMMAND : ["mrestart"]
+RESTART_COMMAND : ["restart"]
 
 # Sudo Users Commaands
 
