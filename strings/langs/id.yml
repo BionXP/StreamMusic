@@ -332,7 +332,7 @@ SA_B_7 : "🔢 10 Stats Top Global"
 SA_B_8 : "🤖 Stats Bot"
 
 #Queue
-QU_B_1 : "💽 Daftar Antrian"
+QU_B_1 : "📋 Daftar Antrian"
 QU_B_2 : "Dimainkan {0} dari {1} Menit"
 
 # Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
