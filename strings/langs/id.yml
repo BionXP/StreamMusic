@@ -142,7 +142,7 @@ cplay_5 : "Hanya Channel yang didukung."
 cplay_6 : "Anda harus menjadi **Pemilik** channel[{0}] untuk menghubungkannya dengan grup ini.\n**Pemilik Channel:** @{1}\n\nAtau Anda dapat menautkan grup Anda ke channel itu lalu coba sambungkan dengan `/channelplay linked`"
 
 #Play
-play_1 : "🔄 Memproses permintaan anda... Harap Tunggu!"
+play_1 : "🔃 𝙈𝙚𝙢𝙥𝙧𝙤𝙨𝙚𝙨 𝙠𝙪𝙚𝙧𝙞....!"
 play_2 : "**🏷Mode Putar Channel**\n\n🔄 Memproses Kueri... Harap Tunggu!\n**Saluran Tertaut:** {0}"
 play_3 : "Gagal Memproses permintaan anda!"
 play_4 : "🖇 **Admin Only Play**\nHanya Admin dan Pengguna Auth yang dapat memutar musik di grup ini.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
@@ -277,7 +277,7 @@ P_B_4 : "💿 Putar Playlist"
 #Playlist
 PL_B_1 : "🚀 Putar Playlist"
 PL_B_2 : " Daftar Putar"
-PL_B_3 : "📁 Menu"
+PL_B_3 : "🗂 ᴍᴇɴᴜ"
 PL_B_4 : "💽 Mode Putar"
 PL_B_5 : "🔄 Hapus Semua Daftar Putar"
 PL_B_6 : "↗️ Hapus Daftar Putar"
