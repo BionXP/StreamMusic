@@ -1,4 +1,3 @@
-
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
 #
@@ -19,18 +18,18 @@ import config
 from config import BANNED_USERS
 from config.config import OWNER_ID
 from strings import get_command, get_string
-from CilikMusic import Telegram, YouTube, app
-from CilikMusic.misc import SUDOERS
-from CilikMusic.plugins.play.playlist import del_plist_msg
-from CilikMusic.plugins.sudo.sudoers import sudoers_list
-from CilikMusic.utils.database import (add_served_chat,
+from YukkiMusic import Telegram, YouTube, app
+from YukkiMusic.misc import SUDOERS
+from YukkiMusic.plugins.play.playlist import del_plist_msg
+from YukkiMusic.plugins.sudo.sudoers import sudoers_list
+from YukkiMusic.utils.database import (add_served_chat,
                                        add_served_user,
                                        blacklisted_chats,
                                        get_assistant, get_lang,
                                        get_userss, is_on_off,
                                        is_served_private_chat)
-from CilikMusic.utils.decorators.language import LanguageStart
-from CilikMusic.utils.inline import (help_pannel, private_panel,
+from YukkiMusic.utils.decorators.language import LanguageStart
+from YukkiMusic.utils.inline import (help_pannel, private_panel,
                                      start_pannel)
 
 loop = asyncio.get_running_loop()
@@ -144,13 +143,16 @@ async def start_comm(client, message: Message, _):
                 published = result["publishedTime"]
             searched_text = f"""
 🔍__**Video Track Information**__
+
 ❇️**Title:** {title}
+
 ⏳**Duration:** {duration} Mins
 👀**Views:** `{views}`
 ⏰**Published Time:** {published}
 🎥**Channel Name:** {channel}
 📎**Channel Link:** [Visit From Here]({channellink})
 🔗**Video Link:** [Link]({link})
+
 ⚡️ __Searched Powered By {config.MUSIC_BOT_NAME}__"""
             key = InlineKeyboardMarkup(
                 [
