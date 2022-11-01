@@ -11,14 +11,14 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["ping"]
-START_COMMAND : ["start"]
-HELP_COMMAND : ["help"]
-SETTINGS_COMMAND : ["settings", "setting"]
+PING_COMMAND : ["mping"]
+START_COMMAND : ["mstart"]
+HELP_COMMAND : ["mhelp"]
+SETTINGS_COMMAND : ["msettings", "msetting"]
 RELOAD_COMMAND : ["admincache", "reload"]
 GSTATS_COMMAND : ["gstats"]
 STATS_COMMAND : ["stats"]
-LANGUAGE_COMMAND : ["lang", "language", "langs"]
+LANGUAGE_COMMAND : ["mlang", "language", "mlangs"]
 
 # Play Commands
 PLAY_COMMAND : ["play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
@@ -33,8 +33,8 @@ DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
 
 # Tools
 QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying"]
-SONG_COMMAND : ["song", "video"]
-LYRICS_COMMAND : ["lyrics"]
+SONG_COMMAND : ["msong", "mvideo"]
+LYRICS_COMMAND : ["mlyrics"]
 
 
 # Admin Commands
@@ -107,6 +107,6 @@ ACTIVEVC_COMMAND : ["vc"]
 ACTIVEVIDEO_COMMAND : ["vd"]
 
 #Gban Commands
-GBAN_COMMAND : ["gban"]
-UNGBAN_COMMAND : ["ungban"]
+GBAN_COMMAND : ["mgban"]
+UNGBAN_COMMAND : ["mungban"]
 GBANNED_COMMAND : ["gbannedusers"]
