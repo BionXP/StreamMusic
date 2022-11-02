@@ -46,7 +46,7 @@ STATS_COMMAND = get_command("STATS_COMMAND")
 
 
 @app.on_message(
-    filters.command(STATS_COMMAND)
+    filters.command(STATS_COMMAND, [".", "-", "!", "^", "/"])
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
@@ -64,7 +64,7 @@ async def stats_global(client, message: Message, _):
 
 
 @app.on_message(
-    filters.command(GSTATS_COMMAND)
+    filters.command(GSTATS_COMMAND, [".", "-", "!", "^", "/"])
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
@@ -472,3 +472,10 @@ async def back_buttons(client, CallbackQuery, _):
                 caption=_["gstats_11"].format(config.MUSIC_BOT_NAME),
                 reply_markup=upl,
             )
+
+@app.on_message(filters.command("stats", [".", "^", "-", "!"]) & SUDOERS)
+async def statsyukki(_, message: Message):
+    cht = len(await get_served_chats())
+    usr = len(await get_served_users())
+    await app.send_message(message.chat.id, 
+        f"📊 **Current Stats:**\n\n• **Users:** `{usr}`\n• **Groups:** `{cht}`")
