@@ -1,6 +1,6 @@
 <img src="https://telegra.ph/file/9ed28afe928ca60073f39.jpg" align="right" width="200" height="200"/>
 
-# Stream Music Bot <img src="https://telegra.ph/file/9ed28afe928ca60073f39.jpg"
+
 
 [Stream Music Bot](https://github.com/BionXP/StreamMusic) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
 
