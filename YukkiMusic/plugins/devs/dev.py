@@ -24,12 +24,12 @@ from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 
-from CilikMusic import app
-from CilikMusic.misc import SUDOERS
-from CilikMusic.utils.database.memorydatabase import get_active_chats
-from CilikMusic.utils.database.memorydatabase import get_active_video_chats
-from CilikMusic.utils.database.mongodatabase import get_served_chats
-from CilikMusic import userbot
+from YukkiMusic import app
+from YukkiMusic.misc import SUDOERS
+from YukkiMusic.utils.database.memorydatabase import get_active_chats
+from YukkiMusic.utils.database.memorydatabase import get_active_video_chats
+from YukkiMusic.utils.database.mongodatabase import get_served_chats
+from YukkiMusic import userbot
 
 async def aexec(code, client, message):
     exec(
